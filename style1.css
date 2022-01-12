@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: whitesmoke;
+    text-align: center;
+    font-family: fantasy;
+    text-shadow: 1px 0 1px #000, 
+    0 1px 1px #000, 
+   -1px 0 1px #000, 
+    0 -1px 1px #000;
+    }
+
+
+body {
+    background-image: url(phon3.jpg);
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+li > i {
+    color: green;
+}
+
+header {
+    padding: 0 100px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background: transparent;
+}
+title {
+    text-align: center;
+}
+
+
+header > a > img {
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+.Content-Table-Main{
+    margin: auto;
+    width: 70%;
+    background-color: transparent;
+    border-style: hidden;
+    border-color: lightblue;
+    color: white;
+}
+
+.Content-Image{
+    width: 300px;
+}
+
+#Navigation { 
+font-family: fantasy;
+border-color: whitesmoke;
+background-color: transparent;
+margin: auto;
+width: 50%;
+}
+
+#Registration{
+    margin-top: 15%;
+}
+
+.Button{
+position: sticky;
+top: 90%;
+left: 90%;
+background-color: black;
+color: white;
+}
+
+.RegistrationTable
+{
+    margin: auto;
+    background-color: transparent;
+    border-style: hidden;
+    color: white;
+
+}
+footer{
+    color: white;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    background-color: gray;
+}
