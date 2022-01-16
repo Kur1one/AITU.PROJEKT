@@ -63,37 +63,27 @@ title {
     vertical-align: middle;
 }
 
-.Content-Image{
-    width: 300px;
-}
-
-#Navigation { 
-font-family: fantasy;
-border-color: black;
-background-color: transparent;
-margin: auto;
-width: 50%;
-color: black;
-}
 
 #Registration{
     margin-top: 15%;
 }
 
-.button{
-width: 10px;
-}
 .paddingTop{
     padding-top: 10px;
 }
-.RegistrationTable
-{
-    margin: auto;
-    background-color: transparent;
+
+#RegButton{
+margin-left: 48.23%;
+}
+
+.border111{
     border-style: hidden;
-    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
 
 }
+
 footer{
     color: white;
     text-align: center;
