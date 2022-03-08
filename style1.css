@@ -64,6 +64,9 @@ title {
     vertical-align: middle;
 }
 
+.paddingBottom{
+    padding-bottom: 10px;
+}
 
 #Registration{
     margin-top: 15%;

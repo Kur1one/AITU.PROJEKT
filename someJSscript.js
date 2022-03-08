@@ -78,7 +78,6 @@ function loginPage(){
         alert("You are logged as "+login);
         localStorage.setItem("loggedLogin", login);
         localStorage.setItem("loggedPassword", password);
-        window.location.href = ("userPage.html");
     }
 
 }
@@ -88,6 +87,12 @@ function showlogged(){
     document.getElementById("UsersList").innerHTML=textLog;
 }
 
-
+function isLogged(){
+    if(localStorage.length==0 || localStorage.getItem("loggedLogin")==null){
+        event.preventDefault();
+        alert("You are not logged in");
+        window.location.href = ("login.html");
+    }
+}
 
 
