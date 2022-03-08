@@ -1,0 +1,45 @@
+<html>
+    <head>
+    <title> Registration page </title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shotcut icon" type="image/png" href="Logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="someJSscript.js"></script>
+    </head>
+    <body>
+        <center>
+            <form name="myForm" action="" onsubmit="passwordChecking()" method="post">
+                <h1 id="Registration"> Registration</h1>
+        <table class="RegistrationTable">
+            <tr>
+        <td> <p> Enter your nickname: <td>
+        <td><input type="text" id="imya" placeholder="Enter nickname" name="nickname"required> <td>  
+            </p>
+        </tr>
+        <tr>
+        <td><p> Enter your password: <td>
+        <td><input type="password" id="pass" placeholder="Enter password" name="password"> 
+            <input type="checkbox" onclick="passUnsee()">
+            <td>
+        <p>
+        </tr>
+        <tr> 
+        <td><p> Repeat your password: <td>
+        <td><input type="password" id="reppass" placeholder="Enter password" name="password"> 
+            <input type="checkbox" onclick="passUnsee1()">
+            <td>
+        <p>
+        </tr>
+        </table>
+        <p></p>
+        <td><input type="submit" value="Submit"></td>
+        </form>
+        </center>   
+      <h1></h1>
+      <center>
+          <form action="index.html"><button>back</button></form>
+          <form action="login.html"><button>login</button></form>
+      </center>
+     </body>
+    </html>
